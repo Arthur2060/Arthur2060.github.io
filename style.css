@@ -15,6 +15,21 @@ header{
     text-align: center;
 }
 
+#contatos{
+    position: absolute;
+    top: 6vh;
+    left: 4vw;
+    transform: scale(2);
+}
+
+.rede{
+    margin: 0 1vw;
+}
+
+#github{
+    color: black;
+}
+
 nav{
     transform: translateY(-40px);
 }
