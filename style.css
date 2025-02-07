@@ -23,11 +23,8 @@ header{
 }
 
 .rede{
-    margin: 0 1vw;
-}
-
-#github{
-    color: black;
+    margin: 0 0.2vw;
+    color: rgb(46, 46, 46);
 }
 
 nav{
@@ -62,4 +59,36 @@ nav{
 .topico a{
     text-decoration: none;
     color: black;
+}
+
+section{
+    width: 70vw;
+    min-height: 20vh;
+    margin: 2vh auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+section h1{
+    font-size: 40px;
+    color: black;
+    position: relative;
+}
+
+#habilidades ul{
+    list-style: none;
+    display: flex;
+}
+
+#habilidades .topico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 5vw;
+}
+
+.topico img{
+    width: 4vw;
 }
