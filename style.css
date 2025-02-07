@@ -1,43 +1,45 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: roboto;
 }
 
-body{
-    background-color: rgb(0, 162, 255);
+body {
+    background-color: rgb(29, 47, 73);
 }
 
-header{
+header {
     height: 15vh;
     background-color: white;
     text-align: center;
 }
 
-#contatos{
+#contatos {
     position: absolute;
     top: 6vh;
     left: 4vw;
     transform: scale(2);
 }
 
-.rede{
+.rede {
     margin: 0 0.2vw;
     color: rgb(46, 46, 46);
 }
 
-nav{
+nav {
     transform: translateY(-40px);
 }
 
-#lista{
+#lista {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-.topico{
+.topico {
     padding: 1%;
     margin: 0.5%;
     border-radius: 10px;
@@ -46,22 +48,22 @@ nav{
     box-shadow: none;
 }
 
-.topico:hover{
+.topico:hover {
     transform: scale(1.5);
     box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.379);
 }
 
-.topico:active{
+.topico:active {
     transform: scale(1.2);
     box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.379);
 }
 
-.topico a{
+.topico a {
     text-decoration: none;
     color: black;
 }
 
-section{
+section {
     width: 70vw;
     min-height: 20vh;
     margin: 2vh auto;
@@ -70,18 +72,19 @@ section{
     padding: 1%;
 }
 
-section h1{
+section h1 {
     font-size: 40px;
     color: black;
     position: relative;
 }
 
-#habilidades ul{
+#habilidades ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 
-#habilidades .topico{
+#habilidades .topico {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,6 +92,16 @@ section h1{
     height: 5vw;
 }
 
-.topico img{
-    width: 4vw;
+#formacao img {
+    border-radius: 20px;
+    margin-right: 1vw;
+    width: 8vw;
+}
+
+#formacao .container {
+    display: flex;
+}
+
+#formação .container ul {
+    display: block;
 }
